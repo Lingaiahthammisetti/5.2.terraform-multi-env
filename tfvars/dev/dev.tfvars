@@ -3,5 +3,4 @@ instance_names ={
         backend-dev = "t3.micro"
         frontend-dev = "t3.micro"
 }
-
 environment = "Development"
