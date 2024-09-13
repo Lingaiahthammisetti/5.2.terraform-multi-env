@@ -1,5 +1,5 @@
-resource "aws_route53_record" "expense" {
-    for_each = aws_instance.expense
+resource "aws_route53_record" "expense_multi_env_r53" {
+    for_each = aws_instance.expense_multi_env
     zone_id = var.zone_id
     
     name = each.key == "frontend-prod" ? var.domain_name : "${each.key}.${var.domain_name}"
