@@ -25,5 +25,5 @@ variable "domain_name" {
 }
 #r53 variables
 variable "zone_id" {
-    default ="Z02765181CEB7C51AA89M"
+     default ="Z047580725LSLR6NAAF8G"
 }

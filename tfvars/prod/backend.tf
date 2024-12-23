@@ -1,4 +1,4 @@
-bucket = "lingaiah-prod-s3"
-key = "multi-prod-tfvars"
-region  = "us-east-1"
-dynamodb_table = "lingaiah-prod-dyndb-lock"
+  bucket  =  "multi-env-prod-remote-state"
+  key     =  "multi-env-prod-key"
+  region  =  "us-east-1"
+  dynamodb_table =  "multi-env-prod-remote-state-locking"
